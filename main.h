@@ -112,7 +112,6 @@ unsigned int convert_sbase(buffer_t *output, long int num, char *base,
 unsigned int convert_ubase(buffer_t *output, unsigned long int num, char *base,
 		unsigned char flags, int wid, int prec);
 
-#endif /* MAIN_H */
 int _printf(const char *format, ...);
 int _putchar(char c);
 
@@ -123,4 +122,3 @@ int _putchar(char c);
 
 
 #endif
->>>>>>> origin/main
